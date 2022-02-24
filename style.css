@@ -1,0 +1,108 @@
+
+.background {
+    background-image: url('/images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: auto;
+    background-position: center;
+    
+    }
+    
+
+.main {
+    background-color: white;
+    position: absolute;
+    background-image: url('/images/illustration-hero.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 5px 1px 25px rgba(0, 0, 0 , 0.4);
+    height: 1000px;
+    width: 650px;
+    margin: -200px auto auto 800px;
+
+}
+
+h2 {
+    text-align: center;
+    font-size: 45px;
+    font-family:  Arial, sans-serif;
+    margin-top: 400px;
+}
+
+p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    color: darkgray;
+}
+
+.music img {
+    width: 70px;
+    height: 70px;
+    margin: auto auto auto 100px;
+    position: absolute;
+}
+
+.annual {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: -100px;
+    color: black;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.bill {
+    margin: -15px auto auto -130px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.change {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    position: absolute;
+    margin-left: 450px;
+    margin-top: -45px;
+    
+}
+
+.change :visited {
+    color: rgba(0, 60, 255, 0.699);
+}
+
+.button {
+    color: rgba(0, 60, 255, 0.699);
+    width: 500px;
+    height: 70px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 21px;
+    border-radius: 12px;
+    color: white;
+    border: none;
+    margin: 100px auto auto 80px;
+    background-color: blue;
+    box-shadow: 0px 5px 2px rgba(0, 60, 255, 0.2);
+    cursor: pointer;
+
+}
+
+.cancel {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    color: #78809d; 
+    font-weight: 700;
+    margin: 50px auto auto auto;
+}
+
+h6 {
+    color: white;
+    font-size: 22px;
+    position: absolute;
+    font-weight: 400;
+    margin: -12px auto auto 145px;
+}
